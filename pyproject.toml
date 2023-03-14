@@ -1,0 +1,21 @@
+[project]
+name = "GeorgiaFlatsBot"
+version = "0.1.0"
+description = "Бот для мониторинга русскоязычных телеграм-каналов об аренде в Грузии."
+readme = "README.md"
+maintainers = [{name = "Olga Pichuzhkina", email = "vyhuholl@protonmail.com"}]
+requires-python = ">=3.10"
+dependencies = [
+    "aiogram",
+    "psycopg2",
+    "python-dotenv",
+    "SQLAlchemy",
+    "Telethon",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 79
